@@ -2,7 +2,7 @@ Did several versions. The credit_card.rb is the last one.
 
 If I remember homework correctly, this is most simple and close code.
 
-> Add credit card payment method which takes one argument and a method and should subtract the amount from balance
+> Add credit card payment method which takes one argument and a method and should subtract the amount from the balance
 
       class CreditCard
         attr_reader :balance
@@ -23,6 +23,8 @@ If I remember homework correctly, this is most simple and close code.
 > While I was learning new methods I have saved few more versions. 
 
 > The credit_card.rb the last version.
+
+
 
 ### Version ONE
 
@@ -53,7 +55,7 @@ If I remember homework correctly, this is most simple and close code.
       puts "Your new balance is $#{creditcard.balance}"
       puts "Your new balance is $#{creditcard.charge(97.18).round(2)}"
 
-### Version TWO
+### Version THREE
 
       class CreditCard
         attr_reader :balance, :deposit, :withdraw
@@ -85,6 +87,8 @@ If I remember homework correctly, this is most simple and close code.
       puts "The amount of your withdrawal is: $#{amount_2}"
       print 'The new account balance is: $'
       puts "#{format '%.2f', (creditcard.withdraw(amount_2))}"
+      
+    
 
 ### Credit Card (original)
 
